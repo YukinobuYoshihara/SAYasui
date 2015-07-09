@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>src/main/webapp/</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>false</reloadable>
+    <redirectLogger>true</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation>D:\yuki\Desktop\新しいフォルダー\SAYasui.war</warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/SAYasui2015</webPath>
+</tomcatProjectProperties>
