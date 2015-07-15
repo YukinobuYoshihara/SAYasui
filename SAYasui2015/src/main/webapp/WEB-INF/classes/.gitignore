@@ -1,1 +1,14 @@
+/app.dicon
+/application.properties
+/application_ja.properties
+/convention.dicon
+/creator.dicon
+/customizer.dicon
+/data/
+/env.txt
+/env_ut.txt
+/jdbc.dicon
 /jp/
+/log4j.properties
+/s2container.dicon
+/s2jdbc.dicon

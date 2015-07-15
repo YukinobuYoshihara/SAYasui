@@ -179,7 +179,13 @@ public class ItemService extends AbstractService<Item> {
 		}
 		return result;
 	}
-
-
+	/**
+	 * タイプセーフAPIを使ったジョイン記述の作り方のサンプル
+	 * @return List<Item>
+	 */
+	public List<Item> testJoin(){
+		return jdbcManager.from(Item.class).innerJoin("stock")
+		.where(eq(stock().isDelete(),(short)0)).getResultList();
+	}
 
 }

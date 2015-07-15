@@ -3,6 +3,10 @@
  */
 package jp.recruit.sayasui.service;
 
+import java.util.List;
+
+import jp.recruit.sayasui.entity.Item;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.seasar.extension.unit.S2TestCase;
@@ -34,5 +38,9 @@ public class ItemServiceTest extends S2TestCase {
 		assertEquals(1L, actual);
 
 	}
-
+	@Test
+	public void testJoinTest(){
+		List<Item> result = itemService.testJoin();
+		assertNotNull(result);
+	}
 }
